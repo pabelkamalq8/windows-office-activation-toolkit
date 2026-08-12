@@ -1,0 +1,17 @@
+# This file is used to override language statistics
+# Default behavior
+# Configuration for git attributes
+*.css linguist-detectable
+*.htm linguist-vendored   
+*.jpeg binary
+*.svg text
+
+themes/**/*.css linguist-detectable
+node_modules/* linguist-vendored
+*.map linguist-generated
+
+*.woff2 binary
+*.md linguist-documentation
+*.yaml linguist-detectable=false
+
+# eof 08858ee6
